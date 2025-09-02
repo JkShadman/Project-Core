@@ -1,0 +1,22 @@
+{
+  "name": "plf/prototype",
+  "type": "project",
+  "require": {
+    "php": "^8.2",
+    "laravel/framework": "^10.0",
+    "laravel/tinker": "^2.10",
+    "guzzlehttp/guzzle": "^7.10"
+  },
+  "require-dev": {
+    "fakerphp/faker": "^1.9.1",
+    "laravel/pail": "^1.2",
+    "laravel/sail": "^1.45",
+    "nunomaduro/collision": "^7.12"
+  },
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/",
+      "Database\\Seeders\\": "database/seeders/"
+    }
+  }
+}
